@@ -2,6 +2,10 @@
     --color-one: #f00;
     --color-two: #fff;
     --color-three: #000;
+
+    --font-size-big: 2rem;
+    --font-size-medium: 1rem;
+    --font-size-small: 0.5rem;
 }
 
 body{
@@ -28,6 +32,7 @@ body{
 #displayScreen{
     height: 100%;
     width: 98%;
+    border: none;
 }
 
 .numpad{
@@ -67,4 +72,17 @@ body{
 
 #equal{
     width: 100%;
+}
+
+button{
+    border: none;
+    background-color: var(--color-two);
+    font-size: var(--font-size-medium);
+}
+
+button:hover{
+    /* border: 2px solid var(--color-three); */
+    background-color: var(--color-three);
+    color: var(--color-two);
+    font-size: var(--font-size-big);
 }
