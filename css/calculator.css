@@ -11,13 +11,15 @@ body{
 
 .calculator{
     height: 70vh;
-    width: 70vw;
+    width: 30vw;
     padding: 5vh;
     box-shadow: 5px 5px 10px #555;
+    display: flex;
+    flex-direction: column;
 }
 
 .display{
-    height: 10vh;
+    height: 30%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -33,7 +35,7 @@ body{
     margin-top: 2vh;
     display: flex;
     flex-direction: row;
-    height: ;
+    height: 70%;
 }
 
 .numbers{
@@ -45,9 +47,9 @@ body{
     flex-wrap: wrap;
 }
 
-.num{
-    height: 30%;
-    width: 30%;
+.numbers button{
+    width: 33%;
+    height: 25%;
 }
 
 .operators{
@@ -55,10 +57,14 @@ body{
     padding: 0;
     width: 40%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.operator{
-    height: 100%;
+.operators button{
+    width: 50%;
+}
+
+#equal{
     width: 100%;
 }
