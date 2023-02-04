@@ -86,3 +86,7 @@ button:hover{
     color: var(--color-two);
     font-size: var(--font-size-big);
 }
+
+button#deleteEverything{
+    background-color: var(--color-one);
+}
