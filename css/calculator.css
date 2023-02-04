@@ -1,0 +1,64 @@
+:root{
+    --color-one: #f00;
+    --color-two: #fff;
+    --color-three: #000;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.calculator{
+    height: 70vh;
+    width: 70vw;
+    padding: 5vh;
+    box-shadow: 5px 5px 10px #555;
+}
+
+.display{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#displayScreen{
+    height: 100%;
+    width: 98%;
+}
+
+.numpad{
+    position: relative;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    height: ;
+}
+
+.numbers{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.num{
+    height: 30%;
+    width: 30%;
+}
+
+.operators{
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.operator{
+    height: 100%;
+    width: 100%;
+}
